@@ -1,0 +1,46 @@
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.father {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: lawngreen;
+    box-shadow: 20px 20px 30% blue;
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+}
+.child.one {
+    width: 50%;
+    background-color: blue;
+    border-radius: 20px;
+
+}
+.one h2 ,h3 {
+    text-align: center;
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: red;
+    margin: 0 auto;
+}
+.circle h1{
+    font-size:4rem;
+    margin: 0 auto;
+    padding-top:20px;
+}
+.child.one p {
+    color:white;
+    font-size: .75rem;
+    padding: 0 50px;
+}
+.child.two {
+    width: 50%;
+}
+.child.two h2 {
+    display:block;
+}
