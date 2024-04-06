@@ -3,7 +3,7 @@ body{
     height: 100vh;
 }
 .father {
-    display: flex;
+    display: grid;
     justify-content: space-evenly;
     border-radius: 10px;
     background-color: lawngreen;
