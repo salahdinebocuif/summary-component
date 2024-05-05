@@ -47,7 +47,7 @@ p{
 /*  background:linear-gradient(to bottom ,hsl(var(--Light-slate-blue)),hsl(var(--Light-royal-blue)));*/
   text-align: center;
   border-radius: 2rem;
-  gap:1.5rem;
+  gap:1.3rem;
   color:hsl(var(--White),.4);
 }
 .result-title {
@@ -78,7 +78,7 @@ color:hsl(var(--White));
 
 }
 .great {
-  margin-bottom: 70px;
+  margin-bottom: 1.5rem;
   padding: .4rem;
 }
 .great-title {
@@ -99,30 +99,29 @@ color:hsl(var(--White));
   margin-left: 1.8rem;
   margin-right: 1.8rem;
   color:hsl(var(--Dark-gray-blue));
-  gap: 2rem;
+  gap: 1.5rem;
 
 }
 .summary-title{
   font-weight: 700;
   margin-top: 2.4rem;
-  display: block;
 }
 .items {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  row-gap:1.2rem;
+  row-gap:1rem;
 
 }
 svg {
-  margin: 1rem 1rem;
+  margin: .7rem 1rem;
 }
 
 .items div {
   display: flex;
   justify-content: space-between;
  font-weight: 500;
-line-height: 3;
+line-height: 2;
 border-radius: .9rem;
 }
 .items div p {
@@ -170,7 +169,7 @@ color:hsl(var(--Light-red));
   font-weight: 700;
   margin-bottom: 2rem;
   line-height: 1;
-  padding:1rem 3rem;
+  padding:.8rem 3rem;
 }
 .Sbutton:hover{
   background-color:hsl(var(--Light-royal-blue))
@@ -178,6 +177,8 @@ color:hsl(var(--Light-red));
 @media (max-width:500px){
   body{
     max-height: 100vh;
+    margin: 0;
+    padding: 0;
   }
   .container{
     grid-template-columns: 1fr;
@@ -188,5 +189,8 @@ color:hsl(var(--Light-red));
   }
   .result{
     border-radius:0 0 2rem 2rem;
+  }
+  .great-summary {
+    margin: 0 2rem;
   }
 }
